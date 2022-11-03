@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin:0;
+  }
+  
+  header, section, footer {
+    overflow: auto;
+  }
+
+  /* background */
+
+body{
+background-image:url(img/background.jpg) ;
+
+  }
+
+  header{
+    background-image: url(img/brunch3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+background-size: cover;
+padding-top: 2%;
+padding-bottom: 40%;
+    
+  }
+
+  .container{
+    background-color: rgba(255, 255, 255, 0.719);
+    width: 60%;
+    border-radius: 10px;
+  }
+
+  h3::after{
+    content: "";
+    display: block;
+    width: 300px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 10px;
+    position:absolute;
+    left: 40%;
+    
+}
+
+h3{
+    text-align: center;
+}
+
+h1{
+  font-family: 'Caveat';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px #000000;
+  position: absolute;
+  top: 10px;
+  left:10px
+
+
+}
+.para{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+
+}
+.main{
+  font-family: 'Caveat';
+  color:white;
+  position: absolute;
+  left: 20%;
+  font-size: 150px;
+  text-shadow: 2px 2px #000000;
+  top:15%;
+  left:27%;
+}
+
+li, a{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+.nav_links{
+  
+  list-style: none;
+}
+.nav{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+.nav_links li{
+  display: inline-block;
+  margin-left: 50px;
+
+}
+
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+  color: white;
+  text-decoration: none;
+}
+header nav li a:hover{
+  color: rgb(247, 148, 144);
+}
+
+.nav_links{
+  position: absolute;
+  right: 2%;
+  top:2%
+}
+
+footer{
+  background-color: rgb(255, 255, 255);
+text-align: center;
+padding: 100px;
+
+}
+
+p{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+}
+
